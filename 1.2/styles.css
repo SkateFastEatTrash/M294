@@ -1,0 +1,22 @@
+body{
+    background-color: #1ED760;
+}
+h1{
+    color: white;
+}
+h2{
+    color: black;
+}
+p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif 
+}
+.top-albums {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
